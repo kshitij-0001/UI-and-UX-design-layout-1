@@ -43,7 +43,7 @@ Building a foundation for responsive web design
 Demonstrating front-end skills on GitHub
 
 📷 Screenshot
-![Webpage Layout screenshot](Screenshot.png,preview-task4)
+![Webpage Layout screenshot](Screenshot.png,preview-task4.png)
 
 Clone the repository:
 git clone https://github.com/kshitij-0001/UI-and-UX-design-layout-1.git
