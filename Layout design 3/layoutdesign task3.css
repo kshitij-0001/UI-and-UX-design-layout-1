@@ -1,0 +1,123 @@
+/* header section  CSS code */
+
+
+.headersection{
+    background-color: #919791;
+    color: black;
+    padding: 10px;
+    height: 250px;
+    padding: 10px;
+}
+.headerupperdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+}
+.headerlowerdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 250px;
+    width: 100%;
+    padding: 10px;
+}
+.intro{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    text-align: left;
+}
+.slider{padding: 10px;
+    background-color: #6d6f6d;
+    height: 120px;
+    width: 400px;
+    margin-right: 250px;
+    text-align: center;
+    font-size: larger;
+}
+.headerparaupper{
+     text-align: left;
+     font-weight: bold;
+}
+.headerparalower{
+    flex-wrap: wrap;
+    font-size: larger;
+    width: 300px;
+    text-align: left;
+}
+
+
+/*main section CSS code */
+.mainsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(219, 224, 228); 
+    height: 700px; 
+    padding:30px 100px;
+}
+.container{
+     height: 75%;
+     width: 100%;
+     justify-items: center;
+     align-items: center;
+}
+.maindiv3{
+    background-color: #919791;
+    height: 15%;
+    width: 80%;
+    padding: 0px;
+}
+.containerbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    column-gap: 25px;
+}
+.box{
+    height: 85%;
+    width: 22%;
+    background-color: #919791;
+    border: 3px solid black;
+}
+p{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: 30%;
+}
+.twitterfeed{
+    font-size: 30px;
+    text-align: center;
+    top: 10%;
+}
+
+/* footer section CSS code */
+
+.footerdiv{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #919791;
+    color: black;
+    height: 75px;
+    font-size: larger;
+}
+.foooterlist{
+    display: flex;
+    list-style-type: none;
+}
+
+.footerlinkitem{
+    margin: 10px;
+    color: rgb(14, 69, 197);
+}
+
