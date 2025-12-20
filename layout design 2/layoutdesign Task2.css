@@ -1,0 +1,110 @@
+.continer{
+    background-color: antiquewhite;
+    border:2px solid black;
+    height: 700px;
+    width: auto;
+    padding: 0px;
+    margin: 10px;;
+
+    /*--header section  */
+}
+.headersection{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    display: flex;
+    width: auto;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.nav-heading{
+    height: 100%;
+    width: 700px;
+    margin-right: 200px;
+}
+.image{
+    align-self: flex-start;
+        position: relative;
+        left: 30px;
+        height: 80%;
+        width: 120px;
+        background-color: blue;
+        border: 3px solid black;
+        color: aliceblue;
+        
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+       
+   }
+   .linkitem{
+    padding: 10px 30px;
+    margin-right: 50px;
+    border: 2px solid black;
+    background-color: brown;
+    border-color: black;
+   }
+   .nabv-bar{
+    justify-content: flex-start;
+   }
+   .heading1{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+   }
+   .heading2{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+   }
+   .navitem{
+    /* width: 40px;
+    height: 20px;
+    height: 20px; */
+    display: inline-block;
+    justify-content: ;
+   }
+
+  /*body section css */
+
+  .section1{
+    display: flex;
+    border: 2px solid black;
+    height:60%;
+    width: auto;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+.Nevigation{
+    margin: 10px;
+    width: 20%;
+    border: 3px solid black;
+    background-color: green;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+.content{
+    margin: 10px;
+    width: 70%;
+    border: 3px solid black;
+    background-color: green;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+
+/*-- footer section --*/
+
+.section2{
+    display: flex;
+    border: 2px solid black;
+    height:10%;
+    width: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    background-color: aquamarine;
+  }
